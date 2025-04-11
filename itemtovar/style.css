@@ -1,0 +1,186 @@
+body{
+    font-family: sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-fluid{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 50px;
+    gap: clamp(50px, 5vh, 70px);
+}
+
+.navbar-nav{
+    gap: 50px;
+}
+
+.btn-korzina{
+    border: 0;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.a-sigma{
+    margin-right: px;
+}
+
+header{
+    background-color: white;
+}
+
+.container{
+    width: 1280px;
+}
+
+.main-flex{
+    display: flex;
+    align-items: start;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+.buy-price{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.name{
+    font-size: 20px;
+    color: rgb(46, 46, 46);
+}
+
+.vse{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 5px 5px 5px gray;
+    border-radius: 30px;
+    height: 550px;
+    column-gap: 40px;
+    margin-left: 40px;
+}
+
+.buy{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: chocolate;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.reviews p{
+    width: 600px;
+}
+
+.reviews img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vidgyki{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.price{
+    color: gray;
+    font-size: 25px;
+}
+
+.price span{
+    color: red;
+    font-weight: bold;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+}
+
+.spisok{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    font-size: 25px;
+    background-color: gainsboro;
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item{
+    color: rgb(70, 70, 70);
+}
+
+.item span{
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(207, 207, 207);
+    font-family: "Josefin Sans", sans-serif;
+    border-top: 5px solid black;
+}
+
+.footer-logo{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.footer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flex__footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.footer-list_container{
+    display: flex;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    transition: 0.3s ease-in-out;
+}
+
+.footer-link a:hover{
+    color: black;
+}
+
+.footer-link{
+    list-style: none;
+}
